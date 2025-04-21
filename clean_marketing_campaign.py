@@ -33,4 +33,4 @@ df_cleaned["income"] = df_cleaned["income"].astype(float)
 # Save cleaned dataset
 df_cleaned.to_csv("marketing_campaign_cleaned.csv", index=False)
 
-print("✅ Data cleaned and saved as 'marketing_campaign_cleaned.csv'")
+print("Data cleaned and saved as 'marketing_campaign_cleaned.csv'")
